@@ -34,4 +34,14 @@ public class ejemplo4 {
         }
 
     }*/
+    //Ejercicio 4
+   /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+   Scanner scan = new Scanner(System.in);
+    int contador=0;
+        while(scan.hasNext())
+    {
+        contador += 1;
+        String texto = scan.nextLine();
+        System.out.println(contador+ " "+texto);
+    }
 }
