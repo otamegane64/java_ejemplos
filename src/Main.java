@@ -14,5 +14,9 @@ public class Main {
             System.out.format("%03d%n", x);
         }
         System.out.println("================================");
+        //Convertir un entero a String
+        //String s = String.valueOf(n);
+        //Convertir un String a entero
+        //int numEntero = Integer.parseInt(numCadena);
     }
 }
